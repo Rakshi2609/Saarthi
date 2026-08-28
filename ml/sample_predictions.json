@@ -1,0 +1,167 @@
+[
+  {
+    "applicant_id": "APP000011",
+    "loan_type": "Tractor",
+    "monthly_income_inr": 36781,
+    "loan_amount_inr": 987000,
+    "cibil_actual": 577,
+    "cibil_predicted": 601.5,
+    "default_probability": 0.0,
+    "decision": "reject",
+    "decision_probabilities": {
+      "reject": 0.567,
+      "approve": 0.29,
+      "refer": 0.144
+    },
+    "fraud_score": 0.0,
+    "fraud_flags": [],
+    "anomaly_score": -0.008,
+    "top_3_reasons": [
+      {
+        "feature": "employment_Salaried",
+        "contribution": -11.952041625976562
+      },
+      {
+        "feature": "loan_amount_inr",
+        "contribution": -8.010533332824707
+      },
+      {
+        "feature": "age",
+        "contribution": -7.226010799407959
+      }
+    ]
+  },
+  {
+    "applicant_id": "APP000101",
+    "loan_type": "Gold Loan",
+    "monthly_income_inr": 46266,
+    "loan_amount_inr": 142000,
+    "cibil_actual": 652,
+    "cibil_predicted": 656.9,
+    "default_probability": 0.0002,
+    "decision": "approve",
+    "decision_probabilities": {
+      "reject": 0.15,
+      "approve": 0.495,
+      "refer": 0.354
+    },
+    "fraud_score": 0.2,
+    "fraud_flags": [
+      "Disposable email domain"
+    ],
+    "anomaly_score": 0.052,
+    "top_3_reasons": [
+      {
+        "feature": "monthly_income_inr",
+        "contribution": 19.307218551635742
+      },
+      {
+        "feature": "employment_Salaried",
+        "contribution": -9.993524551391602
+      },
+      {
+        "feature": "phone_age_days",
+        "contribution": -5.191481590270996
+      }
+    ]
+  },
+  {
+    "applicant_id": "APP000501",
+    "loan_type": "Personal Loan",
+    "monthly_income_inr": 25496,
+    "loan_amount_inr": 66000,
+    "cibil_actual": 742,
+    "cibil_predicted": 722.5,
+    "default_probability": 0.0001,
+    "decision": "approve",
+    "decision_probabilities": {
+      "reject": 0.029,
+      "approve": 0.825,
+      "refer": 0.147
+    },
+    "fraud_score": 0.42,
+    "fraud_flags": [
+      "IP geo mismatch with applicant address",
+      "Disposable email domain"
+    ],
+    "anomaly_score": 0.024,
+    "top_3_reasons": [
+      {
+        "feature": "employment_Salaried",
+        "contribution": 58.17003631591797
+      },
+      {
+        "feature": "browser_Edge",
+        "contribution": 8.196142196655273
+      },
+      {
+        "feature": "phone_age_days",
+        "contribution": 8.15014362335205
+      }
+    ]
+  },
+  {
+    "applicant_id": "APP001001",
+    "loan_type": "Two Wheeler",
+    "monthly_income_inr": 22515,
+    "loan_amount_inr": 43000,
+    "cibil_actual": 690,
+    "cibil_predicted": 672.0,
+    "default_probability": 0.0,
+    "decision": "approve",
+    "decision_probabilities": {
+      "reject": 0.088,
+      "approve": 0.707,
+      "refer": 0.205
+    },
+    "fraud_score": 0.0,
+    "fraud_flags": [],
+    "anomaly_score": 0.052,
+    "top_3_reasons": [
+      {
+        "feature": "employment_Gig Worker",
+        "contribution": 22.59564781188965
+      },
+      {
+        "feature": "employment_Salaried",
+        "contribution": -12.6082124710083
+      },
+      {
+        "feature": "loan_amount_inr",
+        "contribution": 10.861876487731934
+      }
+    ]
+  },
+  {
+    "applicant_id": "APP002501",
+    "loan_type": "Two Wheeler",
+    "monthly_income_inr": 25358,
+    "loan_amount_inr": 58000,
+    "cibil_actual": 726,
+    "cibil_predicted": 724.4,
+    "default_probability": 0.0001,
+    "decision": "approve",
+    "decision_probabilities": {
+      "reject": 0.024,
+      "approve": 0.792,
+      "refer": 0.184
+    },
+    "fraud_score": 0.0,
+    "fraud_flags": [],
+    "anomaly_score": 0.075,
+    "top_3_reasons": [
+      {
+        "feature": "employment_Salaried",
+        "contribution": 54.00901412963867
+      },
+      {
+        "feature": "age",
+        "contribution": 8.797393798828125
+      },
+      {
+        "feature": "email_age_days",
+        "contribution": 7.361222267150879
+      }
+    ]
+  }
+]

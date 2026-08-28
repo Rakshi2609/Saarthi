@@ -1,0 +1,26 @@
+{
+  "app_velocity_high": {
+    "weight": 0.2,
+    "trigger": "app_velocity_30d >= 4"
+  },
+  "email_too_young": {
+    "weight": 0.18,
+    "trigger": "email_age_days < 30"
+  },
+  "phone_too_young": {
+    "weight": 0.1,
+    "trigger": "phone_age_days < 90"
+  },
+  "ip_geo_mismatch": {
+    "weight": 0.22,
+    "trigger": "ip_geo_mismatch == 1"
+  },
+  "shared_device": {
+    "weight": 0.15,
+    "trigger": "device_shared_count_30d >= 2"
+  },
+  "disposable_email": {
+    "weight": 0.2,
+    "trigger": "disposable_email == 1"
+  }
+}
