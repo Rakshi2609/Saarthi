@@ -16,6 +16,7 @@ Run:
   source .venv/bin/activate
   uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
 """
+import utils.session
 import json
 import os
 import random
