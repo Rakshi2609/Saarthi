@@ -5,5 +5,4 @@ __pycache__/
 logs/
 *.pid
 .DS_Store
-config.bat
 node_modules
